@@ -10,7 +10,7 @@
 
 **Spec:** `docs/specs/2026-03-25-website-migration-design.md`
 
-**Contact email:** REDACTED_EMAIL
+**Contact email:** (removed from docs — use obfuscated email shortcode in content)
 
 ---
 
@@ -224,7 +224,7 @@ Willkommen beim **Sport Dojo Berlin e.V.** — Judo ab 3 Jahren!
 
 4 Wochen kostenloses Probetraining.
 
-Kontakt: [REDACTED_EMAIL](mailto:REDACTED_EMAIL)
+Kontakt: {{</* email */>}}
 ```
 
 This is placeholder content — will be expanded with real content from the current site
@@ -348,7 +348,7 @@ menu: "main"
 <!-- Paste the real Impressum and Datenschutz content here -->
 <!-- This is legally required for German websites -->
 
-Kontakt: [REDACTED_EMAIL](mailto:REDACTED_EMAIL)
+Kontakt: {{</* email */>}}
 ```
 
 - [ ] **Step 3: Verify build**

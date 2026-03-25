@@ -9,6 +9,7 @@ theme = "ananke"
   background_color_class = "bg-near-black"
   show_reading_time = false
   site_logo = "/images/logo.jpg"
+  contact_email = "REDACTED_EMAIL"
 
 [menu]
   [[menu.main]]

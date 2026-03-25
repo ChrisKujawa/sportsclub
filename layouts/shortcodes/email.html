@@ -1,0 +1,7 @@
+{{- $email := site.Params.contact_email | default "" -}}
+{{- $parts := split $email "@" -}}
+{{- $user := index $parts 0 -}}
+{{- $domain := index $parts 1 -}}
+<span class="email-obfuscated">
+  <a href="#" onclick="this.href='mailto:' + '{{ $user }}' + '@' + '{{ $domain }}'; return true;">Schreiben Sie uns eine E-Mail</a>
+</span>
