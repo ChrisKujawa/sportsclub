@@ -1,8 +1,9 @@
 /* Sport Dojo Berlin custom scheme */
-/* Purple accent from original site (#b504b7) with neutral grays */
+/* Teal/cyan primary matching original site header */
+/* Purple accent as secondary */
 :root {
   --color-neutral: 255, 255, 255;
-  /* Gray neutrals */
+  /* Dark gray neutrals - slightly lighter than default dark */
   --color-neutral-50: 250, 250, 250;
   --color-neutral-100: 244, 244, 245;
   --color-neutral-200: 228, 228, 231;
@@ -11,28 +12,28 @@
   --color-neutral-500: 113, 113, 122;
   --color-neutral-600: 82, 82, 91;
   --color-neutral-700: 63, 63, 70;
-  --color-neutral-800: 39, 39, 42;
-  --color-neutral-900: 24, 24, 27;
-  /* Purple primary - derived from #b504b7 */
-  --color-primary-50: 253, 244, 253;
-  --color-primary-100: 250, 232, 250;
-  --color-primary-200: 245, 208, 245;
-  --color-primary-300: 232, 170, 233;
-  --color-primary-400: 200, 110, 201;
-  --color-primary-500: 181, 4, 183;
-  --color-primary-600: 155, 3, 157;
-  --color-primary-700: 128, 2, 130;
-  --color-primary-800: 100, 2, 101;
-  --color-primary-900: 75, 1, 76;
-  /* Dark slate secondary */
-  --color-secondary-50: 248, 250, 252;
-  --color-secondary-100: 241, 245, 249;
-  --color-secondary-200: 226, 232, 240;
-  --color-secondary-300: 203, 213, 225;
-  --color-secondary-400: 148, 163, 184;
-  --color-secondary-500: 100, 116, 139;
-  --color-secondary-600: 71, 85, 105;
-  --color-secondary-700: 51, 65, 85;
-  --color-secondary-800: 30, 41, 59;
-  --color-secondary-900: 15, 23, 42;
+  --color-neutral-800: 45, 48, 52;
+  --color-neutral-900: 32, 35, 38;
+  /* Teal primary - matching original site header */
+  --color-primary-50: 240, 253, 252;
+  --color-primary-100: 204, 251, 248;
+  --color-primary-200: 153, 246, 240;
+  --color-primary-300: 94, 234, 226;
+  --color-primary-400: 45, 212, 206;
+  --color-primary-500: 20, 184, 180;
+  --color-primary-600: 13, 154, 154;
+  --color-primary-700: 15, 123, 126;
+  --color-primary-800: 17, 98, 102;
+  --color-primary-900: 18, 80, 85;
+  /* Purple secondary from original branding */
+  --color-secondary-50: 253, 244, 253;
+  --color-secondary-100: 250, 232, 250;
+  --color-secondary-200: 245, 208, 245;
+  --color-secondary-300: 232, 170, 233;
+  --color-secondary-400: 200, 110, 201;
+  --color-secondary-500: 181, 4, 183;
+  --color-secondary-600: 155, 3, 157;
+  --color-secondary-700: 128, 2, 130;
+  --color-secondary-800: 100, 2, 101;
+  --color-secondary-900: 75, 1, 76;
 }

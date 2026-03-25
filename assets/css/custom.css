@@ -1,0 +1,12 @@
+/* Make the logo on homepage larger and more prominent */
+.prose img[alt="Sport Dojo Berlin Logo"] {
+  max-width: 600px;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+/* Style the recent articles cards to be a bit more visually appealing */
+.prose h2 {
+  border-bottom: 2px solid rgb(var(--color-primary-500));
+  padding-bottom: 0.3rem;
+}
