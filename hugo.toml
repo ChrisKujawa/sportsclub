@@ -1,34 +1,92 @@
 baseURL = "https://chriskujawa.github.io/sportsclub/"
-languageCode = "de"
 defaultContentLanguage = "de"
-title = "Sport Dojo Berlin"
-theme = "ananke"
+theme = "blowfish"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[languages]
+  [languages.de]
+    disabled = false
+    languageCode = "de"
+    languageName = "Deutsch"
+    weight = 1
+    title = "Sport Dojo Berlin"
+    [languages.de.params]
+      displayName = "DE"
+      isoCode = "de"
+      dateFormat = "2. January 2006"
+      description = "Judo ab 3 Jahren — Sport Dojo Berlin e.V."
+      logo = "images/logo.jpg"
+      [languages.de.params.author]
+        name = "Sport Dojo Berlin e.V."
+        headline = "Judo ab 3 Jahren"
+        bio = "Willkommen beim Sport Dojo Berlin — Judo für alle Altersgruppen ab 3 Jahren. 4 Wochen kostenloses Probetraining!"
 
 [params]
-  description = "Judo ab 3 Jahren — Sport Dojo Berlin e.V."
-  background_color_class = "bg-near-black"
-  show_reading_time = false
-  site_logo = "images/logo.jpg"
   contact_email = "sport-dojo-berlin@outlook.de"
+  colorScheme = "ocean"
+  defaultAppearance = "light"
+  autoSwitchAppearance = false
+  enableSearch = true
+  enableCodeCopy = false
+  disableImageOptimization = false
+  disableTextInHeader = false
+  [params.header]
+    layout = "basic"
+  [params.footer]
+    showMenu = true
+    showCopyright = true
+    showThemeAttribution = false
+    showAppearanceSwitcher = false
+    showScrollToTop = true
+  [params.homepage]
+    layout = "hero"
+    homepageImage = "images/logo.jpg"
+    showRecent = true
+    showRecentItems = 5
+    showMoreLink = true
+    showMoreLinkDest = "/aktuelles/"
+    cardView = true
+    cardViewScreenWidth = false
+  [params.article]
+    showDate = true
+    showAuthor = false
+    showHero = true
+    heroStyle = "basic"
+    showBreadcrumbs = true
+    showPagination = true
+    showReadingTime = false
+    showTableOfContents = false
+  [params.list]
+    showHero = false
+    showBreadcrumbs = true
+    groupByYear = true
+  [params.taxonomy]
+    showTermCount = true
 
-[menu]
-  [[menu.main]]
+[menus]
+  [[menus.main]]
     identifier = "aktuelles"
     name = "Aktuelles"
-    url = "/"
+    pageRef = "aktuelles"
     weight = 1
-  [[menu.main]]
+  [[menus.main]]
     identifier = "angebot"
     name = "Angebot"
-    url = "/angebot/"
+    pageRef = "angebot"
     weight = 2
-  [[menu.main]]
+  [[menus.main]]
     identifier = "ueber-uns"
     name = "Über uns"
-    url = "/ueber-uns/"
+    pageRef = "ueber-uns"
     weight = 3
-  [[menu.main]]
+  [[menus.main]]
     identifier = "impressum"
     name = "Impressum"
-    url = "/impressum/"
+    pageRef = "impressum"
     weight = 4

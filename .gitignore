@@ -5,3 +5,4 @@ resources/_gen/
 # OS files
 .DS_Store
 Thumbs.db
+.hugo_build.lock
