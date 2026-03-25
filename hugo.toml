@@ -30,7 +30,7 @@ theme = "blowfish"
 [params]
   contact_email = "sport-dojo-berlin@outlook.de"
   colorScheme = "dojo"
-  defaultAppearance = "light"
+  defaultAppearance = "dark"
   autoSwitchAppearance = false
   enableSearch = true
   enableCodeCopy = false
