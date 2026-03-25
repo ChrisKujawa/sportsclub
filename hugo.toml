@@ -8,7 +8,7 @@ theme = "ananke"
   description = "Judo ab 3 Jahren — Sport Dojo Berlin e.V."
   background_color_class = "bg-near-black"
   show_reading_time = false
-  site_logo = "/images/logo.jpg"
+  site_logo = "images/logo.jpg"
   contact_email = "sport-dojo-berlin@outlook.de"
 
 [menu]
