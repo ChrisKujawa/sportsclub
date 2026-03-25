@@ -21,7 +21,7 @@ theme = "blowfish"
       isoCode = "de"
       dateFormat = "2. January 2006"
       description = "Judo ab 3 Jahren — Sport Dojo Berlin e.V."
-      logo = "images/logo.jpg"
+      # logo in assets/images/ for header display
       [languages.de.params.author]
         name = "Sport Dojo Berlin e.V."
         headline = "Judo ab 3 Jahren"
@@ -29,11 +29,12 @@ theme = "blowfish"
 
 [params]
   contact_email = "sport-dojo-berlin@outlook.de"
-  colorScheme = "ocean"
+  colorScheme = "dojo"
   defaultAppearance = "light"
   autoSwitchAppearance = false
   enableSearch = true
   enableCodeCopy = false
+  mainSections = ["aktuelles"]
   disableImageOptimization = false
   disableTextInHeader = false
   [params.header]
@@ -45,8 +46,7 @@ theme = "blowfish"
     showAppearanceSwitcher = false
     showScrollToTop = true
   [params.homepage]
-    layout = "hero"
-    homepageImage = "images/logo.jpg"
+    layout = "page"
     showRecent = true
     showRecentItems = 5
     showMoreLink = true
@@ -76,17 +76,22 @@ theme = "blowfish"
     pageRef = "aktuelles"
     weight = 1
   [[menus.main]]
+    identifier = "termine"
+    name = "Termine"
+    pageRef = "termine"
+    weight = 2
+  [[menus.main]]
     identifier = "angebot"
     name = "Angebot"
     pageRef = "angebot"
-    weight = 2
+    weight = 3
   [[menus.main]]
     identifier = "ueber-uns"
     name = "Über uns"
     pageRef = "ueber-uns"
-    weight = 3
+    weight = 4
   [[menus.main]]
     identifier = "impressum"
     name = "Impressum"
     pageRef = "impressum"
-    weight = 4
+    weight = 5
