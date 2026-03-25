@@ -83,14 +83,28 @@ Custom domain (later):
 - Update DNS at registrar
 - GitHub handles HTTPS
 
+## Images
+
+- Optimize images before committing (resize to web-appropriate dimensions, compress)
+- Use Hugo's built-in image processing (`resources.Fit`/`resources.Fill`) for thumbnails
+- GitHub Pages repos have a soft 1 GB limit — pre-optimizing keeps the repo manageable
+- If the gallery archive is very large, consider Git LFS as a fallback
+
+## URL Continuity
+
+URL parity with the current IONOS site is not a goal — the URL structure will change.
+Hugo `aliases` in frontmatter can redirect any important old URLs that have external links
+pointing to them. Full redirect mapping is not worth the effort for a club site.
+
 ## Migration Strategy
 
 ### Process
 
-1. Scrape current site with `wget --mirror` or `httrack` (HTML + images)
+1. Scrape current site with `wget --mirror` or `httrack` — this serves as both the
+   migration source and the backup/archive of the IONOS site
 2. Bulk-convert HTML to Markdown via `pandoc` or script
 3. Organize into Hugo content structure, add frontmatter
-4. Extract and organize images into page bundles / `static/images/`
+4. Extract and organize images, optimize for web before committing
 5. Manual cleanup of formatting artifacts, tables, links
 
 Automated conversion gets ~70-80%; the rest is manual cleanup, especially competition
@@ -101,7 +115,8 @@ result tables and gallery layouts.
 - **Phase 1:** Site skeleton — Home, About, Offerings, Contact/Impressum
 - **Phase 2:** News archive and events
 - **Phase 3:** Galleries and Hall of Fame
-- **Phase 4:** Point custom domain, decommission IONOS
+- **Phase 4:** Point custom domain, decommission IONOS (lower DNS TTL in advance,
+  run both in parallel briefly during propagation)
 
 ## Contact Form
 
