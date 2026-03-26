@@ -71,27 +71,22 @@ theme = "blowfish"
 
 [menus]
   [[menus.main]]
-    identifier = "aktuelles"
-    name = "Aktuelles"
-    pageRef = "aktuelles"
-    weight = 1
-  [[menus.main]]
     identifier = "termine"
     name = "Termine"
     pageRef = "termine"
-    weight = 2
+    weight = 1
   [[menus.main]]
     identifier = "angebot"
     name = "Angebot"
     pageRef = "angebot"
-    weight = 3
+    weight = 2
   [[menus.main]]
     identifier = "ueber-uns"
     name = "Über uns"
     pageRef = "ueber-uns"
-    weight = 4
+    weight = 3
   [[menus.main]]
     identifier = "impressum"
     name = "Impressum"
     pageRef = "impressum"
-    weight = 5
+    weight = 4
