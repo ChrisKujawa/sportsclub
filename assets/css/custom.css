@@ -5,10 +5,24 @@
   margin: 1rem auto;
 }
 
-/* Style headings with accent underline */
-.prose h2 {
+/* Teal underline on all section headings */
+.prose h2,
+.prose h3 {
   border-bottom: 2px solid rgb(var(--color-primary-500));
   padding-bottom: 0.3rem;
+}
+
+/* Inside news articles, headings should be smaller than the post title */
+article .prose h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+
+article .prose h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1.2rem;
 }
 
 /* Fix sticky sidebar — body h-screen breaks sticky positioning */

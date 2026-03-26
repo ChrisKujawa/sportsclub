@@ -12,7 +12,7 @@
 {{ range $news.ByDate.Reverse }}
 <article class="mb-14 pb-10 border-b border-neutral-700">
   <header class="mb-4">
-    <h3 class="text-lg font-bold">
+    <h3 class="text-xl font-extrabold">
       <a href="{{ .RelPermalink }}" class="hover:text-primary-500">{{ .Title }}</a>
     </h3>
     <time class="text-sm text-neutral-400" datetime="{{ .Date.Format "2006-01-02" }}">
