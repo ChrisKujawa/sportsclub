@@ -5,6 +5,8 @@ description: "Das beliebte Judo-Sommercamp findet vom 14.–18. Juli statt. Plä
 tags: ["Sommercamp", "Veranstaltung"]
 ---
 
+{{< figure src="judo-kinder.svg" caption="Kindertraining" class="text-center" >}}
+
 Es ist wieder soweit — unser **Judo-Sommercamp 2026** steht in den Startlöchern!
 
 ## Details

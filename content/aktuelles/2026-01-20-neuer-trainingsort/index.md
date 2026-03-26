@@ -5,6 +5,8 @@ description: "Das Montagstraining zieht in die Turnhalle der Friedrich-Ebert-Gru
 tags: ["Training", "Information"]
 ---
 
+{{< figure src="judo-training.svg" caption="Training im Sport Dojo" class="text-center" >}}
+
 Ab dem **3. Februar 2026** findet das **Montagstraining** an einem neuen Standort statt:
 
 ## Neuer Ort

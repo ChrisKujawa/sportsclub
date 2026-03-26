@@ -5,6 +5,8 @@ description: "Unsere Sportler bringen 5 Gold- und 3 Silbermedaillen vom Dolden-M
 tags: ["Turnier", "Ergebnisse"]
 ---
 
+{{< figure src="judo-turnier.svg" caption="Wettkampf" class="text-center" >}}
+
 Am vergangenen Wochenende fand der **Dolden-Mädel Cup 2026** in Berlin statt. Das Sport Dojo Berlin war mit 12 Judoka in verschiedenen Altersklassen vertreten und konnte einen hervorragenden Gesamterfolg feiern.
 
 ## Ergebnisse
