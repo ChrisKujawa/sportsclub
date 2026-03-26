@@ -5,8 +5,14 @@
   margin: 1rem auto;
 }
 
-/* Style the recent articles cards to be a bit more visually appealing */
+/* Style headings with accent underline */
 .prose h2 {
   border-bottom: 2px solid rgb(var(--color-primary-500));
   padding-bottom: 0.3rem;
+}
+
+/* Fix sticky sidebar — body h-screen breaks sticky positioning */
+body {
+  height: auto !important;
+  min-height: 100vh;
 }
