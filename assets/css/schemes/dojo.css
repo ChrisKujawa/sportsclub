@@ -3,16 +3,16 @@
 /* Purple accent as secondary */
 :root {
   --color-neutral: 255, 255, 255;
-  /* Black neutrals - matching the logo's black background */
+  /* Pure black neutrals - body bg is neutral-800, cards are neutral-700 */
   --color-neutral-50: 250, 250, 250;
   --color-neutral-100: 244, 244, 245;
   --color-neutral-200: 228, 228, 231;
   --color-neutral-300: 212, 212, 216;
   --color-neutral-400: 161, 161, 170;
   --color-neutral-500: 113, 113, 122;
-  --color-neutral-600: 75, 75, 80;
-  --color-neutral-700: 45, 45, 48;
-  --color-neutral-800: 18, 18, 18;
+  --color-neutral-600: 55, 55, 58;
+  --color-neutral-700: 20, 20, 20;
+  --color-neutral-800: 0, 0, 0;
   --color-neutral-900: 0, 0, 0;
   /* Teal primary - matching original site header */
   --color-primary-50: 240, 253, 252;
