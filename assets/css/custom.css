@@ -5,9 +5,9 @@
   margin: 1rem auto;
 }
 
-/* Teal underline on all section headings */
-.prose h2,
-.prose h3 {
+/* Teal underline only on post titles */
+article > header h2,
+article > header h3 {
   border-bottom: 2px solid rgb(var(--color-primary-500));
   padding-bottom: 0.3rem;
 }
