@@ -9,7 +9,7 @@ tags: ["Sommercamp", "Veranstaltung"]
 
 Es ist wieder soweit — unser **Judo-Sommercamp 2026** steht in den Startlöchern!
 
-## Details
+### Details
 
 - **Datum:** 14. – 18. Juli 2026
 - **Ort:** Sportanlage am Wannsee
@@ -17,7 +17,7 @@ Es ist wieder soweit — unser **Judo-Sommercamp 2026** steht in den Startlöche
 - **Kosten:** 180 € (Vereinsmitglieder: 140 €)
 - **Plätze:** max. 40 Teilnehmer
 
-## Programm
+### Programm
 
 Das Camp bietet eine Mischung aus Judo-Training, Spiel und Spaß:
 
@@ -27,6 +27,6 @@ Das Camp bietet eine Mischung aus Judo-Training, Spiel und Spaß:
 - Lagerfeuer und Stockbrot am Freitagabend
 - Abschlussturnier mit Urkunden für alle
 
-## Anmeldung
+### Anmeldung
 
 Die Anmeldung erfolgt über die Trainer im Training oder per E-Mail. Bitte beachtet, dass die Plätze erfahrungsgemäß schnell vergeben sind — frühzeitige Anmeldung wird empfohlen!
