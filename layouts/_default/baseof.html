@@ -23,7 +23,7 @@
   {{ end }}
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
-      <div class="flex flex-col lg:flex-row gap-8" style="gap: 3rem;">
+      <div class="flex flex-col-reverse lg:flex-row gap-8" style="gap: 3rem;">
         {{ partial "sidebar.html" . }}
         <div class="lg:w-3/4 min-w-0">
           {{ block "main" . }}{{ end }}
